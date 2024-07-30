@@ -41,10 +41,6 @@ def generate_password(min_length, numbers=True, special_characters=True):
 
     return pwd  # Return the generated password
 
-# Generate and print a default password
-pwd = generate_password(10)
-print("Generated password:", pwd)
-
 # Prompt user for custom password criteria
 try:
     min_length = int(input("Enter the minimum length: "))  # Get minimum length
